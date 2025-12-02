@@ -139,9 +139,12 @@ export default function SignUpPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                minLength={6}
+                minLength={8}
                 disabled={isLoading}
               />
+              <p className="text-xs text-muted-foreground">
+                Password must be at least 8 characters long
+              </p>
             </div>
             <div className="space-y-2">
               <Label>I am a...</Label>
