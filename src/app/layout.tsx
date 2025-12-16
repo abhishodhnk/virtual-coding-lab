@@ -7,6 +7,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Virtual Coding Lab - Interactive Learning Platform",
   description: "An interactive platform for students and teachers to collaborate on coding exercises with real-time features, multi-language support, and instant feedback.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
