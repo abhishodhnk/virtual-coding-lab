@@ -44,8 +44,10 @@ cd virtual-coding-lab
 ```bash
 bun install
 # or
-npm install
+npm install --legacy-peer-deps
 ```
+
+> **Note**: Use `--legacy-peer-deps` flag with npm to handle peer dependency conflicts between packages.
 
 3. **Environment Setup**
 
@@ -202,6 +204,12 @@ The platform implements real-time updates using polling:
 ## 📞 Support
 
 For issues, questions, or contributions, please open an issue on GitHub.
+
+## 👨‍💻 Author
+
+**Abhishodh N K**
+- **USN**: 1RF24MC004
+- **Class**: MCA Sec-A
 
 ---
 
