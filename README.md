@@ -208,9 +208,5 @@ For issues, questions, or contributions, please open an issue on GitHub.
 ## 👨‍💻 Author
 
 **Abhishodh N K**
-- **USN**: 1RF24MC004
-- **Class**: MCA Sec-A
-
----
 
 **Built with ❤️ for educators and students worldwide**
